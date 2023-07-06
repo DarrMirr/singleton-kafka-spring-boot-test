@@ -1,2 +1,4 @@
-# singleton-kafka-spring-boot-test
-Singleton Kafka Spring boot test
+# Singleton Kafka Spring boot test
+
+Example of implementation singleton Kafka instance across all Spring boot tests.
+

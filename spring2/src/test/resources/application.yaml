@@ -1,0 +1,10 @@
+spring:
+  kafka:
+#    bootstrapServers: localhost:9092 -- set programmatically at KafkaTest class
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      groupId: testConsumer
+      #     it is vitally important to set auto-offset-reset equal to earliest for embedded kafka
+      auto-offset-reset: earliest
+
